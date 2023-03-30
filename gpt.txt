@@ -1,0 +1,12 @@
+Constructor chaining is a technique in Java that allows one constructor to call another constructor within the same class or in its superclass.
+ This technique is useful for reducing code duplication and improving code readability.
+
+In Java, every class has at least one constructor.
+ If you do not define any constructor for your class, Java automatically generates a default constructor with no parameters.
+ You can define your own constructors with parameters that initialize the fields of your class.
+ However, if you want to call another constructor from within your constructor, you can use the this() keyword.
+
+Here's an example of constructor chaining in Java:
+
+java
+Copy code
