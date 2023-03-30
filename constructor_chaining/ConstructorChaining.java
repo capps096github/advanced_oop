@@ -8,6 +8,6 @@ public class ConstructorChaining extends Car{
         // constructor chaining is demonstrated here when an instance of the class is created
         // so when the ConstructorChaining() constructor is called, it calls the Car() constructor from the parent class it inherits from by default
         // and therefore prints the details of the car 
-
+            constructorChaining.printDetails();
     }
 }
