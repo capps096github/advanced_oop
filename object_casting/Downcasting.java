@@ -65,7 +65,12 @@ public class Downcasting {
 
       // print details of the dogNiche
       dogNiche2.printDetails();
-    } else {
+    } else if (animalNiche2 instanceof LionNiche) {
+      // assign it to lionNiche object istead, like downcasting
+      LionNiche lionNiche = (LionNiche) animalNiche2;
+
+      // print details of the lionNiche
+      lionNiche.printDetails();
       System.out.println("AnimalNiche is not a dogNiche");
     }
 
